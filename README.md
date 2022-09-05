@@ -1,6 +1,8 @@
 # UnblockNTCE
 一个解除中小学教师资格考试网报名的IE浏览器限制的 Chrome 插件
 
+### UPDATE: 此项目js代码同样适用于 Tampermonkey，[安装链接](https://greasyfork.org/zh-CN/scripts/450806-unblockntce)。
+
 ### 此项目只针对 [该链接内](https://ntce.neea.edu.cn/html1/folder/16013/15-1.htm) 列出的报名系统测试通过，其他系统请自行测试。
 
 ---
