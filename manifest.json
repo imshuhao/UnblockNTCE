@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "UnblockNTCE",
+  "description": "Remove IE restriction on NTCE website.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "*://*.neea.edu.cn/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.neea.edu.cn/*"],
+      "js": ["script.js"],
+      "run_at": "document_start"
+    }
+   ]
+}
